@@ -45,4 +45,13 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    // Dynamic Fragment Dependencies *if needed
+    implementation("androidx.fragment:fragment-ktx:1.5.6")
+
+    // Navigation Dependencies
+    implementation("androidx.navigation:navigation-fragment-ktx:2.7.7")
+    implementation("androidx.navigation:navigation-ui-ktx:2.7.7")
+    implementation("com.google.android.material:material.1.2.0-alpha04")
+    implementation ("androidx.viewpager2:viewpager2:1.1.0")
 }
